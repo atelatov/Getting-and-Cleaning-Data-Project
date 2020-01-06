@@ -96,4 +96,6 @@ both_table <-
 # View final table, if desired.
 # This table contains all the required information.
 View(both_table)
-# END
+
+# Write data to txt file
+write.table(both_table, file = "both_table.txt", row.names = FALSE)
