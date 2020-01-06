@@ -24,7 +24,7 @@ Variables (listed in order of appearance):
 11. 'mer': data-table derived from 'merged'
 
 12. 'both_table': table 'mer' grouped by subject and activity, and summarized by mean
-
+      - dimensions 180 by 81
 
 Data:
 
