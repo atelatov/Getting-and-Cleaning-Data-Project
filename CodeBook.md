@@ -20,6 +20,7 @@ Variables (listed in order of appearance):
 9. 'train_merged': table resulting from column-binding the subject, features and activities for the train data ('train_sub', 'train_x', 'train_y')
     - dimensions 7352 by 563  
 10. 'merged': data-frame resulting from row-binding the test and train merged tables ('test_merged' and 'train_merged')
+      - dimensions 10299 by 563
 11. 'mer': data-table derived from 'merged'
 
 12. 'both_table': table 'mer' grouped by subject and activity, and summarized by mean
