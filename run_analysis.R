@@ -93,5 +93,7 @@ both_table <-
         group_by(Subject, Activity) %>%
         summarize_at(vars(tBodyAccmeanX:fBodyBodyGyroJerkMagmeanFreq), mean)
 
-names(both_table)
+# View final table, if desired.
+# This table contains all the required information.
+View(both_table)
 # END
